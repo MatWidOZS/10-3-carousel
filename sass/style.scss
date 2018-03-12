@@ -1,12 +1,19 @@
 * {box-sizing: border-box;}
 
+body {
+	margin-top: 20vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
 #carousel {
-	margin: 0 auto;
+	margin: 0 20px;
 	width: 500px;
 	height: 334px;
 	border: 1px solid #000;
 	overflow: hidden;
-	margin-top: 20vh;
 	
 	ul {
 		width: 2500px;
@@ -26,5 +33,14 @@
 	img {
 		width: 500px;
 		height: 334px;
+	}
+}
+
+.btn {
+	border: none;
+	background: rgba(0,0,0,0);
+	cursor: pointer;
+	&:hover {
+		color: #7f8c8d;
 	}
 }
