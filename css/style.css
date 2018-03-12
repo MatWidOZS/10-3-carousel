@@ -29,4 +29,11 @@ body {
     width: 500px;
     height: 334px; }
 
+.btn {
+  border: none;
+  background: rgba(0, 0, 0, 0);
+  cursor: pointer; }
+  .btn:hover {
+    color: #7f8c8d; }
+
 /*# sourceMappingURL=style.css.map */

@@ -35,3 +35,12 @@ body {
 		height: 334px;
 	}
 }
+
+.btn {
+	border: none;
+	background: rgba(0,0,0,0);
+	cursor: pointer;
+	&:hover {
+		color: #7f8c8d;
+	}
+}
