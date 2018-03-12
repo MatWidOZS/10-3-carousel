@@ -1,2 +1,29 @@
 * {box-sizing: border-box;}
 
+#carousel {
+	margin: 0 auto;
+	width: 500px;
+	height: 334px;
+	border: 1px solid #000;
+	overflow: hidden;
+	
+	ul {
+		width: 2500px;
+		display: inline-block;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	li {
+		width: 500px;
+		height: 334px;
+		list-style: none;
+		float: left;
+	}
+	
+	img {
+		width: 500px;
+		height: 334px;
+	}
+}
