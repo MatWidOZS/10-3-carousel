@@ -6,7 +6,8 @@
   width: 500px;
   height: 334px;
   border: 1px solid #000;
-  overflow: hidden; }
+  overflow: hidden;
+  margin-top: 20vh; }
   #carousel ul {
     width: 2500px;
     display: inline-block;
